@@ -1,0 +1,17 @@
+const base = import.meta.env.BASE_URL;
+
+const audioPath1 = (name) => `${base}/sound/${name}`;
+const clickSound1 = new Audio(audioPath1("Click-2.mp3"));
+
+export const playClick1 = () => {
+    clickSound1.currentTime = 0;
+    clickSound1.play();
+};
+
+const audioPath2 = (name) => `${base}/sound/${name}`;
+const clickSound2 = new Audio(audioPath2("Click-3.mp3"));
+
+export const playClick2 = () => {
+    clickSound2.currentTime = 0;
+    clickSound2.play();
+};    
