@@ -72,6 +72,13 @@ const projects = [
             A mini-ITX motherboard modeled with <span className="blue">strict</span> dimensional accuracy.
             Makes use of CAD <span className="blue"> precision </span>to represent it's components.
         </>
+    }, {
+        img: imgPath("92TextureSample.webp"),
+        head: "A Texutre Sample",
+        txt: <>
+            A procedural texture study developed from abstract visual <span className="blue">references</span>.
+            This project explores <span className="blue">tiling</span>, <span className="blue">gradients</span>, and node-based workflows in Blender to generate complex, seamless surface designs.
+        </>
     },
 ]
 

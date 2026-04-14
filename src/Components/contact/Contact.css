@@ -15,7 +15,7 @@
 
 .contact:before {
     content: '';
-    background: url("/img/DarkenCurriculoMockup-1920.webp") no-repeat center/cover;
+    background: url("/img/DarkenCurriculoMockup.webp") no-repeat center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
